@@ -13,7 +13,7 @@ public class MovieMain extends JFrame implements ActionListener {
 	//JLabel la=new JLabel(); //그림출력
 	static MovieVO[] movies=new MovieVO[20];
 	JPanel pan=new JPanel();
-	MovieMain(){
+	MovieMain(){ //생성자 : 클래스명과 동일, 리턴형x
 		b1=new JButton("현재상영영화");
 		b2=new JButton("개봉예정영화");
 		b3=new JButton("박스오피스(주간)");
