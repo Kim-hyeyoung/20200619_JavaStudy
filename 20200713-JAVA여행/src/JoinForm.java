@@ -107,10 +107,10 @@ public class JoinForm extends JPanel {
 		add(la8);add(rb1);add(rb2);
 		//우편번호
 		la9.setBounds(300, 380, 80, 30);
-		tf7.setBounds(490, 380, 100, 30);
-		dash.setBounds(600, 380, 20, 30);
-		tf8.setBounds(625, 380, 100, 30);
-		b2.setBounds(730, 380, 150, 30);
+		tf7.setBounds(385, 380, 100, 30);
+		dash.setBounds(500, 380, 20, 30);
+		tf8.setBounds(525, 380, 100, 30);
+		b2.setBounds(630, 380, 150, 30);
 		add(la9);add(tf7);add(dash);add(tf8);add(b2);
 		//주소
 		la10.setBounds(300, 415, 80, 30);
@@ -135,7 +135,7 @@ public class JoinForm extends JPanel {
 		rb2.setOpaque(false);
 
 		
-		p2.setBounds(300, 665, 485, 35);
+		p2.setBounds(300, 450, 485, 35);
 		add(p2);
 		
 	}
