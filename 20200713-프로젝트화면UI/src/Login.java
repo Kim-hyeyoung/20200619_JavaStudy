@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-public class 로그인 extends JPanel{
+public class Login extends JPanel{
 	//스킨
 	private Image Back;
 	private JLabel la1,la2;
@@ -9,7 +9,7 @@ public class 로그인 extends JPanel{
 	JPasswordField pf;
 	JButton b1, b2;
 	//mainform
-	public 로그인()
+	public Login()
 	{
 		//이미지 정보 읽기
 		Back=Toolkit.getDefaultToolkit().getImage("c:\\javaDev\\Back.jpeg");

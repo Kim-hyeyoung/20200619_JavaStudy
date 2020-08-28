@@ -1,3 +1,4 @@
+//메인화면
 package com.sist.client;
 import java.awt.*;
 import javax.swing.*;

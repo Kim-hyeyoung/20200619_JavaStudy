@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 public class Login extends JPanel{
+	JLabel title=new JLabel("모두투어",JLabel.CENTER);
 	//스킨
 	private Image background;
 	private JLabel la1,la2;
@@ -12,7 +13,15 @@ public class Login extends JPanel{
 	public Login()
 	{
 		//이미지 정보 읽기
-		background=Toolkit.getDefaultToolkit().getImage("c:\\javaDev\\background.jpg");
+		background=Toolkit.getDefaultToolkit().getImage("c:\\javaDev\\mainback.jpg");
+		
+		title.setFont(new Font("맑은 고딕",Font.BOLD,60));
+		
+		//배치
+		setLayout(null); //사용자정의 배치
+		title.setBounds(80, 300, 1000, 55);
+		//추가
+		add(title);
 		
 		setLayout(null);//직접 배치
 		la1=new JLabel("아이디",JLabel.RIGHT);

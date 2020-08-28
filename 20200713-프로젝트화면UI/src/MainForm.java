@@ -41,7 +41,7 @@ public class MainForm extends JFrame{
 	private CardLayout card=new CardLayout();//포함 클래스
 	//화면 UI => 생성자에서 만듦 => 시작하면 바로 보여줘야하기 때문
 	//생성자 : 한번만 호출 가능, 시작과 동시에 호출한다
-	로그인 login=new 로그인();
+	Login login=new Login();
 	public MainForm()
 	{
 		setLayout(card);

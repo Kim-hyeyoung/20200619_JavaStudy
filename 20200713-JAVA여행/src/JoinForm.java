@@ -14,7 +14,7 @@ public class JoinForm extends JPanel {
 	//초기화
 	JButton b1;
 	JComboBox telBox=new JComboBox();
-	JTextField tf7,tf8,tf9;
+	JTextField tf7,tf9;
 	JLabel dash2=new JLabel("-");
 	JButton b3=new JButton("회원가입");
 	JButton b4=new JButton("취소");
@@ -24,7 +24,7 @@ public class JoinForm extends JPanel {
 	
 		la1=new JLabel("아이디",JLabel.RIGHT);
 		la2=new JLabel("비밀번호",JLabel.RIGHT);
-		la3=new JLabel("비밀번호 재확인",JLabel.RIGHT);
+		la3=new JLabel("재입력",JLabel.RIGHT);
 		la4=new JLabel("이름",JLabel.RIGHT);
 		la5=new JLabel("생년월일",JLabel.RIGHT);
 		la6=new JLabel("휴대폰 번호",JLabel.RIGHT);
@@ -41,7 +41,7 @@ public class JoinForm extends JPanel {
 		tf5=new JTextField(); //휴대폰번호
 		tf6=new JTextField(); //이메일
 		tf7=new JTextField(); //우편번호
-		tf8=new JTextField();//우편번호
+		
 		tf9=new JTextField();//주소
 		
 		pf1=new JPasswordField(); //비밀번호 입력
@@ -94,11 +94,11 @@ public class JoinForm extends JPanel {
 		telBox.setBounds(385, 275, 100, 30);
 		tf4.setBounds(490, 275,100 , 30);
 		dash2.setBounds(595, 275, 20, 30);
-		tf5.setBounds(620, 275, 100, 30);
+		tf5.setBounds(605, 275, 100, 30);
 		add(la6);add(telBox);add(tf4);add(dash2);add(tf5);
 		//이메일
 		la7.setBounds(300, 310, 80, 30);
-		tf6.setBounds(385, 275, 100, 30);
+		tf6.setBounds(385, 310, 400, 30);
 		add(la7);add(tf6);
 		//거주구분
 		la8.setBounds(300, 345, 80, 30);
@@ -108,10 +108,9 @@ public class JoinForm extends JPanel {
 		//우편번호
 		la9.setBounds(300, 380, 80, 30);
 		tf7.setBounds(385, 380, 100, 30);
-		dash.setBounds(500, 380, 20, 30);
-		tf8.setBounds(525, 380, 100, 30);
-		b2.setBounds(630, 380, 150, 30);
-		add(la9);add(tf7);add(dash);add(tf8);add(b2);
+		
+		b2.setBounds(490, 380, 150, 30);
+		add(la9);add(tf7);add(b2);
 		//주소
 		la10.setBounds(300, 415, 80, 30);
 		tf9.setBounds(385, 415, 400, 30);

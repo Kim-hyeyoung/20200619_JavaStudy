@@ -1,3 +1,4 @@
+//상세페이지
 package com.sist.client;
 import java.awt.*;
 import java.net.URL;
